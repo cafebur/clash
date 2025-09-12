@@ -335,7 +335,7 @@ proxy-groups:
 rules:
 
   - RULE-SET,PrivateTracker / Domain,PrivateTracker
-   - RULE-SET,TEST / Domain,Test
+  - RULE-SET,TEST / Domain,Test
   - RULE-SET,Block / Domain,Block  
   - RULE-SET,GitHub / Domain,GitHub    
   - RULE-SET,ChatGPT / Domain,AI
