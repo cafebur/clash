@@ -65,7 +65,7 @@ dns:
 # 红杏    
     - +.hongxing.one
     - +.hongxingyun.xyz   
-
+# 其他  
     - +.ynhtbank.com
     - +.qeayr.cn
     - +.saojc.xyz   
@@ -74,8 +74,9 @@ dns:
     - +.0tk8a3a1q4t94dler.com    
     - +.aerianas.top
     - +.gptacg.top
+    - +.wxda.net
 
-ipv6: true
+ipv6: false
 
 # ========================
 # TUN 模块
@@ -334,7 +335,7 @@ proxy-groups:
 rules:
 
   - RULE-SET,PrivateTracker / Domain,PrivateTracker
-  - RULE-SET,TEST / Domain,Test
+   - RULE-SET,TEST / Domain,Test
   - RULE-SET,Block / Domain,Block  
   - RULE-SET,GitHub / Domain,GitHub    
   - RULE-SET,ChatGPT / Domain,AI
@@ -437,3 +438,4 @@ rule-providers:
 #  Google / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/google.mrs"}  
 #  Google / IP: {<<: *ip, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geoip/google.mrs"}
 #  GateFireWall / Domain: {<<: *domain, url: "https://gh-proxy.com/github.com/metacubex/meta-rules-dat/raw/refs/heads/meta/geo/geosite/gfw.mrs"}
+
